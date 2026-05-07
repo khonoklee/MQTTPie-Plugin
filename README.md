@@ -6,14 +6,10 @@ MQTTPie connects your ProtoPie prototype to real-world data over MQTT. You can t
 
 ## Installation
 
-1. Download the MQTTPie plugin file for your platform:
-   - `plugin-bundle-macos-arm64` — Mac (Apple Silicon / M1, M2, M3)
-   - `plugin-bundle-macos-x64` — Mac (Intel)
-   - `plugin-bundle-win-x64.exe` — Windows
-2. Zip the plugin file together with `metadata.json`
-3. Open **ProtoPie Connect** → Plugins → Upload the zip
+1. Open **ProtoPie Connect** → Plugins → Upload the zip file provided by your team
+2. Click **Run**
 
-Once installed, click **Run** in Connect. A browser window opens at `http://localhost:3000` — that's your MQTTPie control panel.
+A browser window opens at `http://localhost:3000` — that's your MQTTPie control panel.
 
 > MQTTPie requires a **ProtoPie Connect Enterprise** plan.
 
