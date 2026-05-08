@@ -163,10 +163,10 @@ If you have an Arduino or similar device on the same WiFi network as your comput
 1. Find your computer's local IP address:
    - **Mac:** System Settings → Wi-Fi → Details → IP Address (e.g. `192.168.1.50`)
    - **Windows:** Start → `cmd` → type `ipconfig` → look for IPv4 Address
-2. In your Arduino sketch (or device firmware), point the MQTT broker to that IP on port `1883`:
+2. In your Arduino sketch (or device firmware), point the MQTT broker to that IP on port `1884`:
    ```
    broker: 192.168.1.50
-   port:   1883
+   port:   1884
    ```
 3. Keep MQTTPie on **Built-in broker** — no need to switch to External
 4. Make sure your computer and the Arduino are on the **same WiFi network**
